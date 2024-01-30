@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086702727039",
+    "project_id": "zaliczenie-androi",
+    "storage_bucket": "zaliczenie-androi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086702727039:android:34f779c0d155768692b44a",
+        "android_client_info": {
+          "package_name": "com.example.zaliczenieandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeMles_rhqC64IAPelYam-WXbDdo-5lBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

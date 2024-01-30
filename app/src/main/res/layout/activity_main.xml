@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageEditText" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your message max 40 char"
+        android:maxLength="40"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/showLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Location"
+        app:layout_constraintEnd_toEndOf="@+id/locationTextView"
+        app:layout_constraintStart_toStartOf="@+id/locationTextView"
+        app:layout_constraintTop_toBottomOf="@+id/locationTextView" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="231dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="10dp"
+        android:hint="Lokalization"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/showButton"
+        app:layout_constraintStart_toStartOf="@+id/showButton"
+        app:layout_constraintTop_toBottomOf="@+id/showButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
